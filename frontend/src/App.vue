@@ -1,8 +1,10 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link>
-  </nav>
-  <!-- <router-view/> -->
+  <Fragment>
+    <nav>
+      <router-link to="/">Home</router-link>
+    </nav>
+    <router-view />
+  </Fragment>
 </template>
 
 <style lang="scss">
