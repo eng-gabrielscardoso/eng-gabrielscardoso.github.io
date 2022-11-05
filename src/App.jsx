@@ -3,7 +3,7 @@ import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 
 import Introduction from './components/Introduction/Introduction'
 import Resume from './components/Resume/Resume'
-// import Contact from './components/Contact/Contact'
+import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
 export default function App(props) {
@@ -18,7 +18,7 @@ export default function App(props) {
       <main data-scroll-container ref={ref}>
         <Introduction></Introduction>
         <Resume></Resume>
-        {/* <Contact></Contact> */}
+        <Contact></Contact>
         <Footer></Footer>
       </main>
     </LocomotiveScrollProvider>
