@@ -28,6 +28,10 @@ const BackendBadges = [
     src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg'
   },
   {
+    label: 'NestJS',
+    src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-plain.svg'
+  },
+  {
     label: 'PHP',
     src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg'
   },
