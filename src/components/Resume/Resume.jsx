@@ -1,8 +1,8 @@
-import FrontendBadges from './FrontendBadges';
-import BackendBadges from './BackendBadges';
-import BlockchainBadges from './BlockchainBadges';
-import DatabaseBadges from './DatabaseBadges';
-import OtherToolsBadges from './OtherToolsBadges';
+import FrontendBadges from '../../assets/badges/FrontendBadges';
+import BackendBadges from '../../assets/badges/BackendBadges';
+import BlockchainBadges from '../../assets/badges/BlockchainBadges';
+import DatabaseBadges from '../../assets/badges/DatabaseBadges';
+import OtherToolsBadges from '../../assets/badges/OtherToolsBadges';
 
 const frontend = FrontendBadges.map((badgeSource, index) => {
   return (

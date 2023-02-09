@@ -1,13 +1,13 @@
 import moment from 'moment';
 
-import BadgesSources from './BadgesSources';
+import BadgesSources from '../../assets/badges/BadgesSources';
 import ProfileImage from '../../assets/images/profile.jpg';
 
 const getCurrentAge = moment().diff('2001-12-02', 'years');
 
 const badges = BadgesSources.map((badgeSource, index) => {
   return (
-    <li key={index}>
+    <li key={index} className="min-w-fit">
       <a href={badgeSource.href} target="_blank" rel="noreferrer noopener">
         <img src={badgeSource.src} alt={badgeSource.label} title={badgeSource.label} />
       </a>
@@ -26,7 +26,7 @@ export default function Introduction(props) {
         <p className="text-xl">
           Software solutions
         </p>
-        <ul className="grid grid-cols-3 place-items-center gap-2">
+        <ul className="flex items-center justify-center flex-wrap gap-2">
           { badges }
         </ul>
         <p className="w-full lg:w-4/6 text-justify mt-2">

@@ -23,11 +23,6 @@ const BadgesSources = [
     href: 'https://wa.me/message/SFETAGDRXGFND1',
     label: 'WhatsApp',
     src: 'https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white'
-  },
-  {
-    href: 'https://t.me/enggabrielscardoso',
-    label: 'Telegram',
-    src: 'https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white'
   }
 ];
 
