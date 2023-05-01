@@ -24,7 +24,7 @@ export default function Introduction(props) {
           &lt;/<span className="text-slate-200">Gabriel Santos Cardoso</span>&gt;
         </h1>
         <p className="text-xl">
-          Software solutions
+          Software solutions | Fullstack developer
         </p>
         <ul className="flex items-center justify-center flex-wrap gap-2">
           { badges }
