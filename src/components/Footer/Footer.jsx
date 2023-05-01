@@ -4,7 +4,7 @@ export default function Footer(props) {
   return (
     <footer className="h-screen flex justify-center items-center bg-slate-300 text-green-600 font-bold" data-scroll-section>
       <div data-scroll data-scroll-direction="vertical" data-scroll-speed="9">
-        <div class="flex flex-col gap-2 justify-center items-center p-2">
+        <div className="flex flex-col gap-2 justify-center items-center p-2">
           <picture>
             <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" title="Computer banner" alt="Computer Banner" />
           </picture>
