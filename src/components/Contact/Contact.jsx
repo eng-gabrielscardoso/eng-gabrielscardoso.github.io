@@ -18,10 +18,10 @@ export default function Contact(props) {
         <h2 className="text-4xl font-bold text-blue-700">
           &lt;/<span className="text-white">Contact</span>&gt;
         </h2>
-        <ul className="flex items-center justify-center flex-wrap gap-2 bg-red-10">
+        <ul className="flex flex-col items-center justify-center flex-wrap gap-2 bg-red-10">
           { badges }
         </ul>
-        You can reach me by phone with the number: +55 91 986253389 (Also Whatsapp contact).
+        You can reach me by text message, email or by LinkedIn.
       </div>
       <div className="w-full md:w-1/2 flex flex-col items-center md:items-start gap-2" data-scroll data-scroll-direction="vertical" data-scroll-speed="9">
         <h2 className="text-4xl font-bold text-blue-700">
