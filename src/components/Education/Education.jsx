@@ -56,7 +56,7 @@ export default function Education(props) {
       <h2 className="text-4xl font-bold text-red-500">
         &lt;/<span className="text-slate-200">Education</span>&gt;
       </h2>
-      <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-4 overflow-y-scroll">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-4 overflow-y-scroll">
         {educationCards}
       </div>
     </section>
