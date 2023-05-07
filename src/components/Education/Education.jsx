@@ -36,7 +36,7 @@ const education = [
 
 const educationCards = education.map((education, index) => {
   return (
-    <div className="bg-slate-50 p-4 rounded" key={index}>
+    <div className="bg-slate-50 p-4 rounded hover:cursor-pointer" key={index}>
       <div className="flex items-center gap-3 mb-4">
         <img src={education.img.src} alt={education.img.alt} className="rounded-full w-16 h-16 border" />
         <div className="flex flex-col">
@@ -56,7 +56,7 @@ export default function Education(props) {
       <h2 className="text-4xl font-bold text-red-500">
         &lt;/<span className="text-slate-200">Education</span>&gt;
       </h2>
-      <div className="w-full flex gap-4">
+      <div className="w-full grid grid-cols-3 gap-4">
         {educationCards}
       </div>
     </section>

@@ -27,10 +27,10 @@ export default function Introduction(props) {
           Software solutions | Fullstack developer
         </p>
         <ul className="flex items-center justify-center flex-wrap gap-2">
-          { badges }
+          {badges}
         </ul>
         <p className="w-full lg:w-4/6 text-justify mt-2">
-          Hello, I'm Gabriel Santos Cardoso, a man in love with technology. I currently reside in Barcarena, PA, I am { getCurrentAge } years old and I am looking for new job opportunities. Feel free to contact me to discuss business, studies, or simply exchange a good idea between colleagues.
+          Hello, I'm Gabriel Santos Cardoso, a man in love with technology. I currently reside in Barcarena, PA, I am {getCurrentAge} years old and I am looking for new job opportunities. Feel free to contact me to discuss business, studies, or simply exchange a good idea between colleagues.
         </p>
       </div>
 
