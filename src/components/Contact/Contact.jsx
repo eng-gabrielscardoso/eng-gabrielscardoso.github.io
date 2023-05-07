@@ -13,7 +13,7 @@ const badges = BadgesSources.map((badgeSource, index) => {
 
 export default function Contact(props) {
   return (
-    <section className="h-screen p-2 md:p-24 flex flex-col md:flex-row gap-4 justify-around md:justify-center items-center bg-yellow-600 text-white" data-scroll-section>
+    <section className="min-h-screen p-2 md:p-24 flex flex-col md:flex-row gap-4 justify-around md:justify-center items-center bg-yellow-600 text-white" data-scroll-section>
       <div className="w-full md:w-1/2 flex flex-col gap-2 items-center text-center" data-scroll data-scroll-direction="horizontal" data-scroll-speed="9">
         <h2 className="text-4xl font-bold text-blue-700">
           &lt;/<span className="text-white">Contact</span>&gt;

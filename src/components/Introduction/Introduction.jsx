@@ -17,7 +17,7 @@ const badges = BadgesSources.map((badgeSource, index) => {
 
 export default function Introduction(props) {
   return (
-    <section className="h-screen p-2 md:p-24 flex flex-col md:flex-row gap-4 justify-around md:justify-center items-center bg-slate-900 text-white" data-scroll data-scroll-section data-scroll-speed="4">
+    <section className="min-h-screen p-2 md:p-24 flex flex-col md:flex-row gap-4 justify-around md:justify-center items-center bg-slate-900 text-white" data-scroll data-scroll-section data-scroll-speed="4">
       {/* Left */}
       <div className="w-full md:w-1/2 flex flex-col gap-2 justify-between items-center">
         <h1 className="text-4xl font-bold text-yellow-600 text-center">

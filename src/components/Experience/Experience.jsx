@@ -55,7 +55,7 @@ const experienceCards = experience.map((experience, index) => {
 
 export default function Experience(props) {
   return (
-    <section className="h-screen p-4 flex flex-col gap-4 justify-center items-center bg-stone-800">
+    <section className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-stone-800">
       <h2 className="text-4xl font-bold text-orange-600">
         &lt;/<span className="text-slate-200">Experience</span>&gt;
       </h2>
