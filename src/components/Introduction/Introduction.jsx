@@ -1,7 +1,6 @@
 import moment from 'moment';
 
 import BadgesSources from '../../assets/badges/BadgesSources';
-import ProfileImage from '../../assets/images/profile.jpg';
 
 const getCurrentAge = moment().diff('2001-12-02', 'years');
 
@@ -36,7 +35,7 @@ export default function Introduction(props) {
 
       {/* Right */}
       <div className="w-full md:w-1/2 flex justify-center items-center rounded-full">
-        <img src={ProfileImage} alt="Gabriel's profile" title="Gabriel's profile" width="350" height="350" className="rounded-full" />
+        <img src="https://pt.gravatar.com/userimage/199484219/012c5298d952c34d6699a3d280e3a4f3.png?size=350" alt="Gabriel's profile" title="Gabriel's profile" width="350" height="350" className="rounded-full" />
       </div>
     </section>
   );
