@@ -1,4 +1,9 @@
-const BackendBadges = [
+interface IBackendBadge {
+  label: string;
+  src: string;
+}
+
+const BackendBadges: IBackendBadge[] = [
   {
     label: 'Docker',
     src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-plain.svg'

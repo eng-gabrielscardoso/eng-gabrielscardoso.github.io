@@ -44,7 +44,7 @@ const otherTools = OtherToolsBadges.map((badgeSource, index) => {
   );
 });
 
-export default function Resume(props) {
+export default function Resume(): JSX.Element {
   return (
     <section className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-resume text-white" data-scroll-section>
       <h2 className="text-4xl font-bold text-emerald-500">

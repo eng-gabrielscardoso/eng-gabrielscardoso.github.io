@@ -54,7 +54,7 @@ const educationCards = education.map((education, index) => {
   )
 });
 
-export default function Education(props) {
+export default function Education(): JSX.Element {
   return (
     <section className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-education" data-scroll-section>
       <h2 className="text-4xl font-bold text-red-500">

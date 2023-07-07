@@ -11,7 +11,7 @@ const badges = BadgesSources.map((badgeSource, index) => {
   );
 });
 
-export default function Contact(props) {
+export default function Contact(): JSX.Element {
   return (
     <section className="min-h-screen p-2 lg:p-24 flex flex-col lg:flex-row gap-4 justify-around lg:justify-center items-center bg-contact text-white" data-scroll-section>
       <div className="w-full md:w-1/2 flex flex-col gap-2 items-center text-center" data-scroll data-scroll-direction="horizontal" data-scroll-speed="9">

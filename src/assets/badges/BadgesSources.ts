@@ -1,4 +1,10 @@
-const BadgesSources = [
+interface IBackendBadge {
+  href: string;
+  label: string;
+  src: string;
+}
+
+const BadgesSources: IBackendBadge[] = [
   {
     href: 'https://github.com/eng-gabrielscardoso',
     label: 'Github',

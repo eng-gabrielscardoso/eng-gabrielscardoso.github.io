@@ -1,4 +1,9 @@
-const FrontendBadges = [
+interface IFrontendBadge {
+  label: string;
+  src: string;
+}
+
+const FrontendBadges: IFrontendBadge[] = [
   {
     label: 'HTML',
     src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg'

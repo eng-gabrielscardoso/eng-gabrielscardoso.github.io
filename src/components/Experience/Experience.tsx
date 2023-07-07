@@ -57,7 +57,7 @@ const experienceCards = experience.map((experience, index) => {
   )
 });
 
-export default function Experience(props) {
+export default function Experience(): JSX.Element {
   return (
     <section className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-experience">
       <h2 className="text-4xl font-bold text-orange-600">

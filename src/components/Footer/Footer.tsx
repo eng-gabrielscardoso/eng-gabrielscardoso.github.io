@@ -1,4 +1,4 @@
-export default function Footer(props) {
+export default function Footer(): JSX.Element {
   const currentYear = new Date().getFullYear();
 
   return (

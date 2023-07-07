@@ -1,4 +1,9 @@
-const OtherToolsBadges = [
+interface IOtherToolsBadge {
+  label: string;
+  src: string;
+}
+
+const OtherToolsBadges: IOtherToolsBadge[] = [
   {
     label: 'Linux',
     src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg'

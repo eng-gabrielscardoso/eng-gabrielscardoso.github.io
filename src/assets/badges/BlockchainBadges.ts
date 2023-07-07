@@ -1,4 +1,9 @@
-const BlockchainBadges = [
+interface IBlockchainBadge {
+  label: string;
+  src: string;
+}
+
+const BlockchainBadges: IBlockchainBadge[] = [
   {
     label: 'Javascript',
     src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg'

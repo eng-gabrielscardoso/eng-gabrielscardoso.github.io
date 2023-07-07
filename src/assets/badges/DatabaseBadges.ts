@@ -1,4 +1,9 @@
-const DatabaseBadges = [
+interface IDatabaseBadge {
+  label: string;
+  src: string;
+}
+
+const DatabaseBadges: IDatabaseBadge[] = [
   {
     label: 'MySQL',
     src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg'

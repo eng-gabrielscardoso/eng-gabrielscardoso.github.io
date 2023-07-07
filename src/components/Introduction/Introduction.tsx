@@ -14,7 +14,7 @@ const badges = BadgesSources.map((badgeSource, index) => {
   );
 });
 
-export default function Introduction(props) {
+export default function Introduction(): JSX.Element {
   return (
     <section className="min-h-screen p-2 md:p-24 flex flex-col md:flex-row gap-4 justify-around md:justify-center items-center bg-introduction text-white" data-scroll data-scroll-section data-scroll-speed="4">
       {/* Left */}
