@@ -46,7 +46,7 @@ const otherTools = OtherToolsBadges.map((badgeSource, index) => {
 
 export default function Resume(props) {
   return (
-    <section className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-indigo-400 text-white" data-scroll-section>
+    <section className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-resume text-white" data-scroll-section>
       <h2 className="text-4xl font-bold text-emerald-500">
         &lt;/<span className="text-slate-200">Resume</span>&gt;
       </h2>
