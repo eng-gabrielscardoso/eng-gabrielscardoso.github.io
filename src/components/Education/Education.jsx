@@ -1,7 +1,11 @@
+import ufpa_logo from "../../assets/images/ufpa.jpeg"
+import unifecaf_logo from "../../assets/images/unifecaf.jpeg"
+import unip_logo from "../../assets/images/unip.jpeg"
+
 const education = [
   {
     img: {
-      src: "https://media.licdn.com/dms/image/C4D0BAQF5pgxwqpTcfw/company-logo_200_200/0/1519950242564?e=1691020800&v=beta&t=I6H8nm7XP75hoFDm_v7RT06STxQnr4TRtzONAMi761U",
+      src: ufpa_logo,
       alt: "UFPA Logo"
     },
     position: "Information Systems",
@@ -12,7 +16,7 @@ const education = [
   },
   {
     img: {
-      src: "https://media.licdn.com/dms/image/C4D0BAQG2hwA7wL57fg/company-logo_200_200/0/1671549300037?e=1691020800&v=beta&t=S9iwj5XZux8u31rrJt5E1f9jSa1zcxRI5SGuQSvtyaI",
+      src: unifecaf_logo,
       alt: "UniFECAF Logo"
     },
     position: "Software Engineering",
@@ -23,7 +27,7 @@ const education = [
   },
   {
     img: {
-      src: "https://media.licdn.com/dms/image/D4E0BAQEWNDeUOTnZlg/company-logo_200_200/0/1682344716791?e=1691020800&v=beta&t=okA71Gpx-irZ8yYmPXEWyye_tIHLArhyl3DpIGbmUMg",
+      src: unip_logo,
       alt: "Universidade Paulista"
     },
     position: "Supply Chain and Logistics Management",

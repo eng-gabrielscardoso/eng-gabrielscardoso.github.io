@@ -1,19 +1,11 @@
+import ufpa_logo from "../../assets/images/ufpa.jpeg"
+import dacxichain_logo from "../../assets/images/dacxi-chain.jpeg"
+import wealth99_logo from "../../assets/images/wealth99.jpeg"
+
 const experience = [
   {
     img: {
-      src: "https://media.licdn.com/dms/image/C560BAQGv9gsd4E-Y7Q/company-logo_200_200/0/1674531904477?e=1691020800&v=beta&t=5-v8n30cMzRyy3B5hxmsTdxELMC4wbtDWNP2LFshgbQ",
-      alt: "Wealth99 Logo"
-    },
-    position: "Fullstack Developer",
-    location: "Australia",
-    jobType: "Remote",
-    institution: "Wealth99",
-    period: "Apr 2021 - Currently",
-    description: "Junior Fullstack Developer at Wealth99, where he worked first part-time and later full-time. He has worked with technologies such as blockchain, VueJS 3, TailwindCSS, Playwright, Docker, DBeaver and Insomnia. He was responsible for graphical interface hotfixes, implementation of new pages and also for unit, integration and E2E tests. In addition to working on the frontend, he was also able to work on the backend with technologies such as PHP, Laravel 5.6, Docker, SQL and NoSQL databases, testing with Playwright, DevOps culture and also blockchain. During the experience he had the opportunity to improve his knowledge in Clean Code, SOLID, DevOps, English skills, agile culture, code review and also teamwork and a sense of belonging."
-  },
-  {
-    img: {
-      src: "https://media.licdn.com/dms/image/C560BAQE218TW_m4kpQ/company-logo_200_200/0/1642478095421?e=1691020800&v=beta&t=v0HnIGabP_zF7aIRdH0BrAnTxaDWDW7W-h0i2HVzpxc",
+      src: dacxichain_logo,
       alt: "Dacxi Chain Logo"
     },
     position: "Fullstack Developer",
@@ -25,7 +17,19 @@ const experience = [
   },
   {
     img: {
-      src: "https://media.licdn.com/dms/image/C4D0BAQF5pgxwqpTcfw/company-logo_200_200/0/1519950242564?e=1691020800&v=beta&t=I6H8nm7XP75hoFDm_v7RT06STxQnr4TRtzONAMi761U",
+      src: wealth99_logo,
+      alt: "Wealth99 Logo"
+    },
+    position: "Fullstack Developer",
+    location: "Australia",
+    jobType: "Remote",
+    institution: "Wealth99",
+    period: "Apr 2021 - Currently",
+    description: "Junior Fullstack Developer at Wealth99, where he worked first part-time and later full-time. He has worked with technologies such as blockchain, VueJS 3, TailwindCSS, Playwright, Docker, DBeaver and Insomnia. He was responsible for graphical interface hotfixes, implementation of new pages and also for unit, integration and E2E tests. In addition to working on the frontend, he was also able to work on the backend with technologies such as PHP, Laravel 5.6, Docker, SQL and NoSQL databases, testing with Playwright, DevOps culture and also blockchain. During the experience he had the opportunity to improve his knowledge in Clean Code, SOLID, DevOps, English skills, agile culture, code review and also teamwork and a sense of belonging."
+  },
+  {
+    img: {
+      src: ufpa_logo,
       alt: "UFPA Logo"
     },
     position: "Intern Software Developer",
