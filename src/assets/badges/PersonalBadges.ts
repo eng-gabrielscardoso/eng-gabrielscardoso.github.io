@@ -1,10 +1,10 @@
-interface IBackendBadge {
+interface IPersonalBadge {
   href: string;
   label: string;
   src: string;
 }
 
-const BadgesSources: IBackendBadge[] = [
+const PersonalBadges: IPersonalBadge[] = [
   {
     href: "https://github.com/eng-gabrielscardoso",
     label: "Github",
@@ -22,4 +22,4 @@ const BadgesSources: IBackendBadge[] = [
   },
 ];
 
-export default BadgesSources;
+export default PersonalBadges;

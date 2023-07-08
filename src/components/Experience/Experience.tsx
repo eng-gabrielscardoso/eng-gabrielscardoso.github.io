@@ -1,6 +1,6 @@
-import ufpa_logo from "../../assets/images/ufpa.jpeg";
-import dacxichain_logo from "../../assets/images/dacxi-chain.jpeg";
-import wealth99_logo from "../../assets/images/wealth99.jpeg";
+import ufpa_logo from "@/assets/images/ufpa.jpeg";
+import dacxichain_logo from "@/assets/images/dacxi-chain.jpeg";
+import wealth99_logo from "@/assets/images/wealth99.jpeg";
 
 interface IImage {
   src: string;
@@ -84,7 +84,10 @@ const experienceCards: JSX.Element[] = experience.map((experience, index) => {
 
 export default function Experience(): JSX.Element {
   return (
-    <section className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-experience">
+    <section
+      className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-experience"
+      data-scroll-section
+    >
       <h2 className="text-4xl font-bold text-orange-600">
         &lt;/<span className="text-slate-200">Experience</span>&gt;
       </h2>

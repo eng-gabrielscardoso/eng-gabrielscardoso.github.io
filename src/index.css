@@ -8,35 +8,35 @@ Smooth scrolling config
 For more details, see https://github.com/locomotivemtl/locomotive-scroll/blob/master/dist/locomotive-scroll.css
 */
 html.has-scroll-smooth {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 html.has-scroll-dragging {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; 
+  user-select: none;
 }
 
 .has-scroll-smooth body {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .has-scroll-smooth [data-scroll-container] {
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
 [data-scroll-direction="horizontal"] [data-scroll-container] {
   height: 100vh;
   display: inline-block;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 [data-scroll-direction="horizontal"] [data-scroll-section] {
   display: inline-block;
   vertical-align: top;
   white-space: nowrap;
-  height: 100%; 
+  height: 100%;
 }
 
 .c-scrollbar {
@@ -47,16 +47,17 @@ html.has-scroll-dragging {
   height: 100%;
   transform-origin: center right;
   transition: transform 0.3s, opacity 0.3s;
-  opacity: 0; 
+  opacity: 0;
 }
 
 .c-scrollbar:hover {
-  transform: scaleX(1.45); 
+  transform: scaleX(1.45);
 }
 
-.c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, 
+.c-scrollbar:hover,
+.has-scroll-scrolling .c-scrollbar,
 .has-scroll-dragging .c-scrollbar {
-  opacity: 1; 
+  opacity: 1;
 }
 
 [data-scroll-direction="horizontal"] .c-scrollbar {
@@ -64,11 +65,11 @@ html.has-scroll-dragging {
   height: 10px;
   top: auto;
   bottom: 0;
-  transform: scaleY(1); 
+  transform: scaleY(1);
 }
 
 [data-scroll-direction="horizontal"] .c-scrollbar:hover {
-  transform: scaleY(1.3); 
+  transform: scaleY(1.3);
 }
 
 .c-scrollbar_thumb {
@@ -81,15 +82,15 @@ html.has-scroll-dragging {
   border-radius: 10px;
   margin: 2px;
   cursor: -webkit-grab;
-  cursor: grab; 
+  cursor: grab;
 }
 
 .has-scroll-dragging .c-scrollbar_thumb {
   cursor: -webkit-grabbing;
-  cursor: grabbing; 
+  cursor: grabbing;
 }
 
 [data-scroll-direction="horizontal"] .c-scrollbar_thumb {
   right: auto;
-  bottom: 0; 
+  bottom: 0;
 }

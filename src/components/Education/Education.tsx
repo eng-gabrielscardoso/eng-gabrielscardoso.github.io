@@ -1,6 +1,6 @@
-import ufpa_logo from "../../assets/images/ufpa.jpeg";
-import unifecaf_logo from "../../assets/images/unifecaf.jpeg";
-import unip_logo from "../../assets/images/unip.jpeg";
+import ufpa_logo from "@/assets/images/ufpa.jpeg";
+import unifecaf_logo from "@/assets/images/unifecaf.jpeg";
+import unip_logo from "@/assets/images/unip.jpeg";
 
 interface IImage {
   src: string;
