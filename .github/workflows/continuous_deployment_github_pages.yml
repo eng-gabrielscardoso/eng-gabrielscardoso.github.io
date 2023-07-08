@@ -21,11 +21,24 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm
 
+      - name: Set up Git
+        run: |
+          git config --global user.name "Gabriel Santos Cardoso"
+          git config --global user.email eng.gabrielscardoso@gmail.com
+
       - name: Install dependencies
         run: pnpm install
 
+      - name: Lint application
+        run: pnpm lint
+
       - name: Build application
         run: pnpm build
-
-      - name: Deploy on Github Pages
-        run: pnpm deploy:gh
+      
+      - name: Run Deploy
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          target_branch: gh_pages
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
