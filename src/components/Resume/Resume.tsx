@@ -1,94 +1,3 @@
-import FrontendBadges from "@/assets/badges/FrontendBadges";
-import BackendBadges from "@/assets/badges/BackendBadges";
-import BlockchainBadges from "@/assets/badges/BlockchainBadges";
-import DatabaseBadges from "@/assets/badges/DatabaseBadges";
-import OtherToolsBadges from "@/assets/badges/OtherToolsBadges";
-import TestingBadges from "@/assets/badges/TestingBadges";
-
-const frontend = FrontendBadges.map((badgeSource, index) => {
-  return (
-    <li key={index}>
-      <img
-        src={badgeSource.src}
-        alt={badgeSource.label}
-        title={badgeSource.label}
-        width="40"
-        height="30"
-      />
-    </li>
-  );
-});
-
-const backend = BackendBadges.map((badgeSource, index) => {
-  return (
-    <li key={index}>
-      <img
-        src={badgeSource.src}
-        alt={badgeSource.label}
-        title={badgeSource.label}
-        width="40"
-        height="30"
-      />
-    </li>
-  );
-});
-
-const blockchain = BlockchainBadges.map((badgeSource, index) => {
-  return (
-    <li key={index}>
-      <img
-        src={badgeSource.src}
-        alt={badgeSource.label}
-        title={badgeSource.label}
-        width="40"
-        height="30"
-      />
-    </li>
-  );
-});
-
-const database = DatabaseBadges.map((badgeSource, index) => {
-  return (
-    <li key={index}>
-      <img
-        src={badgeSource.src}
-        alt={badgeSource.label}
-        title={badgeSource.label}
-        width="40"
-        height="30"
-      />
-    </li>
-  );
-});
-
-const testing = TestingBadges.map((badgeSource, index) => {
-  return (
-    <li key={index}>
-      <img
-        src={badgeSource.src}
-        alt={badgeSource.label}
-        title={badgeSource.label}
-        width="40"
-        height="30"
-      />
-    </li>
-  );
-});
-
-const otherTools = OtherToolsBadges.map((badgeSource, index) => {
-  return (
-    <li key={index}>
-      <img
-        src={badgeSource.src}
-        alt={badgeSource.label}
-        title={badgeSource.label}
-        width="40"
-        height="30"
-      />
-    </li>
-  );
-});
-
 export default function Resume(): JSX.Element {
   return (
     <section
@@ -115,9 +24,7 @@ export default function Resume(): JSX.Element {
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Front-end
           </summary>
-          <ul className="grid grid-cols-12 place-items-center gap-2">
-            {frontend}
-          </ul>
+          <img src="https://skills.thijs.gg/icons?i=html,css,js,ts,jquery,sass,tailwindcss,bootstrap,angular,react,next,vuejs,nuxtjs,svelte,astro,jest" alt="Front-end" />
         </details>
       </div>
       <div className="w-full md:w-1/2">
@@ -125,9 +32,7 @@ export default function Resume(): JSX.Element {
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Back-end
           </summary>
-          <ul className="grid grid-cols-12 place-items-center gap-2">
-            {backend}
-          </ul>
+          <img src="https://skills.thijs.gg/icons?i=js,ts,nodejs,express,nestjs,php,laravel,java,spring,python,django,elixir,golang,docker" alt="Back-end" />
         </details>
       </div>
       <div className="w-full md:w-1/2">
@@ -135,9 +40,7 @@ export default function Resume(): JSX.Element {
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Blockchain
           </summary>
-          <ul className="grid grid-cols-12 place-items-center gap-2">
-            {blockchain}
-          </ul>
+          <img src="https://skills.thijs.gg/icons?i=js,ts,golang,solidity,nodejs,linux" alt="Blockchain" />
         </details>
       </div>
       <div className="w-full md:w-1/2">
@@ -145,19 +48,7 @@ export default function Resume(): JSX.Element {
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Database
           </summary>
-          <ul className="grid grid-cols-12 place-items-center gap-2">
-            {database}
-          </ul>
-        </details>
-      </div>
-      <div className="w-full md:w-1/2">
-        <details>
-          <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
-            Testing
-          </summary>
-          <ul className="grid grid-cols-12 place-items-center gap-2">
-            {testing}
-          </ul>
+          <img src="https://skills.thijs.gg/icons?i=mysql,postgresql,sqlite,mongodb,redis" alt="Databases and ORMs" />
         </details>
       </div>
       <div className="w-full md:w-1/2">
@@ -165,9 +56,7 @@ export default function Resume(): JSX.Element {
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Other Tools
           </summary>
-          <ul className="grid grid-cols-12 place-items-center gap-2">
-            {otherTools}
-          </ul>
+          <img src="https://skills.thijs.gg/icons?i=linux,vscode,postman,bash,python,r,c,git,github,gitlab,gulp,webpack,vite" alt="Other tools" />
         </details>
       </div>
     </section>
