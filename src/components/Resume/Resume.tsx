@@ -32,7 +32,7 @@ export default function Resume(): JSX.Element {
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Back-end
           </summary>
-          <img src="https://skills.thijs.gg/icons?i=js,ts,nodejs,express,nestjs,php,laravel,java,maven,spring,python,django,elixir,golang,docker,aws" alt="Back-end" />
+          <img src="https://skills.thijs.gg/icons?i=js,ts,nodejs,express,nestjs,php,laravel,java,maven,spring,python,django,elixir,golang,docker,aws,firebase,supabase" alt="Back-end" />
         </details>
       </div>
       <div className="w-full md:w-1/2">

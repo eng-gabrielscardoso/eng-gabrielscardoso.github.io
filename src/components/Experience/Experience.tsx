@@ -1,5 +1,5 @@
-import ufpa_logo from "@/assets/images/ufpa.jpeg";
 import dacxichain_logo from "@/assets/images/dacxi-chain.jpeg";
+import ufpa_logo from "@/assets/images/ufpa.jpeg";
 import wealth99_logo from "@/assets/images/wealth99.jpeg";
 
 interface IImage {
