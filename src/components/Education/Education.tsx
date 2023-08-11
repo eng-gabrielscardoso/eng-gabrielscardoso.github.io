@@ -26,7 +26,7 @@ const education: IEducation[] = [
     institution: "Universidade Federal do Pará",
     period: "Sep 2021 - Currently",
     description:
-      "The Bachelor's Degree in Information Systems at the Federal University of Pará was created based on Resolution No. Its objective is to prepare a competent, active, enterprising, ethical professional, aware of his social role and his contribution to the scientific and technological advancement of the Pará - Amazon region, and its main competence is to contemplate a professional profile that dominates the technologies of information, promotion of technological and innovative development, ability to develop an entrepreneurial spirit in the search for solutions to organizational challenges and new opportunities for professional growth and a critical and consistent humanistic view of the impact of their professional activities on society.",
+      "The Bachelor's Degree in Information Systems at the Federal University of Pará was created with the objective to prepare a competent, active, enterprising, ethical professional, aware of his social role and his contribution to the scientific and technological advancement of the Pará - Amazon region, and its main competence is to contemplate a professional profile that dominates the technologies of information, promotion of technological and innovative development, ability to develop an entrepreneurial spirit in the search for solutions to organizational challenges and new opportunities for professional growth and a critical and consistent humanistic view of the impact of their professional activities on society.",
   },
   {
     img: {
@@ -79,7 +79,7 @@ const educationCards: JSX.Element[] = education.map((education, index) => {
 export default function Education(): JSX.Element {
   return (
     <section
-      className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-education"
+      className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-amber-800"
       data-scroll-section
     >
       <h2 className="text-4xl font-bold text-red-500">

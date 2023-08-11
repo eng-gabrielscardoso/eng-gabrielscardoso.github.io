@@ -13,7 +13,7 @@ interface IExperience {
   job_type: string;
   institution: string;
   period: string;
-  description: string;
+  description: string[];
 }
 
 const experience: IExperience[] = [
@@ -27,8 +27,11 @@ const experience: IExperience[] = [
     job_type: "Remote",
     institution: "Dacxi Chain",
     period: "Feb 2023 - Currently",
-    description:
-      "Junior Fullstack Developer at Dacxi Chain, where he worked first part-time and later full-time. He has worked with technologies such as blockchain, VueJS 3, TailwindCSS, Playwright, Docker, DBeaver and Insomnia. He was responsible for graphical interface hotfixes, implementation of new pages and also for unit, integration and E2E tests. In addition to working on the frontend, he was also able to work on the backend with technologies such as PHP, Laravel 9 / 10, Docker, SQL and NoSQL databases, testing with Playwright, DevOps culture and also blockchain. During the experience he had the opportunity to improve his knowledge in Clean Code, SOLID, DevOps, English skills, agile culture, code review and also teamwork and a sense of belonging.",
+    description: [
+      "Worked with technologies such as VueJS version 3, Typescript TailwindCSS, Vite, Playwright, Vitest, Laravel version 10 using the Sail starter kit, Laravel Nova, Laravel Vapor, AWS, Docker, Docker Compose, OpenAPI, MySQL and Redis.",
+      "Was responsible for the development of graphical interfaces, implementation of new features, integration with APIs, unit, integration and E2E tests using Vitest and Playwright.",
+      "Was responsible for the development of REST API using the MVC pattern, development of client features using Laravel Nova, software deployment using AWS Amplify and Laravel Vapor, unit and functionality testing with Pest."
+    ]
   },
   {
     img: {
@@ -40,8 +43,11 @@ const experience: IExperience[] = [
     job_type: "Remote",
     institution: "Wealth99",
     period: "Apr 2021 - Currently",
-    description:
-      "Junior Fullstack Developer at Wealth99, where he worked first part-time and later full-time. He has worked with technologies such as blockchain, VueJS 3, TailwindCSS, Playwright, Docker, DBeaver and Insomnia. He was responsible for graphical interface hotfixes, implementation of new pages and also for unit, integration and E2E tests. In addition to working on the frontend, he was also able to work on the backend with technologies such as PHP, Laravel 5.6, Docker, SQL and NoSQL databases, testing with Playwright, DevOps culture and also blockchain. During the experience he had the opportunity to improve his knowledge in Clean Code, SOLID, DevOps, English skills, agile culture, code review and also teamwork and a sense of belonging.",
+    description: [
+      "Worked with technologies such as VueJS version 2, Typescript, TailwindCSS, Webpack, Playwright, Vue Test Utils, Laravel version 5, Laravel Nova, AWS, Docker, Docker Compose, Blockchain, OpenAPI, MySQL, MongoDB and Redis.",
+      "Was responsible for the development of graphical interfaces, implementation of new features, integration with APIs, unit, integration and E2E tests using Vue Test Utils and Playwright.",
+      "Was responsible for the development of REST API using the MVC pattern, development of client features using Laravel Nova, unit and functionality tests with PHPUnit."
+    ]
   },
   {
     img: {
@@ -53,8 +59,11 @@ const experience: IExperience[] = [
     job_type: "On-site",
     institution: "Universidade Federal do Pará",
     period: "Sep 2021 - May - 2022",
-    description:
-      "PROAD Scholarship at the Department of Development of Technological and Informational Products - DDTIP (SEDEPTI) of the Central Library - CL (BC) of UFPA. He worked on the interface development project for the UFPA Patent Repository System - RIPAT, where he worked with technologies such as DSpace 7, Angular, Typescript and NodeJS + NPM and YARN. He also worked on the UFPA Central Library Self-Deposit System development project, in which he worked with technologies such as VueJS, NuxtJS, NodeJS and the main web technologies. Worked on the emergency development of the reserve RIPAT system, implemented and maintained with technologies such as JSP and Bootstrap, in addition to dealing with PostgreSQL database issues, SSH and SCP and FTP connection, backup automation, Linux servers (Debian like) and programming shell. Also, she worked on the production of the Resource Map of DDTIP-CL (SEDEPTI-BC), carrying out the collection of data and information.",
+    description: [
+      "PROAD scholarship holder at the Department of Development of Technological and Informational Products of the Central Library of the Federal University of Pará.",
+      "Worked with the development of graphical interfaces and maintenance of systems developed with VueJS version 2, NuxtJS version 2, NodeJS and Bootstrap.",
+      "He also worked with the development and maintenance of digital repositories using DSpace, where he supported UFPA's institutional repositories and also developed a new dedicated repository for cataloguing patents."
+    ]
   },
 ];
 
@@ -77,7 +86,9 @@ const experienceCards: JSX.Element[] = experience.map((experience, index) => {
           </span>
         </div>
       </div>
-      <p>{experience.description}</p>
+      <ul className="list-disc px-4">
+        {experience.description.map((details, index) => <li key={index}>{details}</li>)}
+      </ul>
     </div>
   );
 });
@@ -85,7 +96,7 @@ const experienceCards: JSX.Element[] = experience.map((experience, index) => {
 export default function Experience(): JSX.Element {
   return (
     <section
-      className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-experience"
+      className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center bg-stone-800"
       data-scroll-section
     >
       <h2 className="text-4xl font-bold text-orange-600">

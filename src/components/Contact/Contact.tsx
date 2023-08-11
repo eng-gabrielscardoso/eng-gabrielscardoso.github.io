@@ -18,7 +18,7 @@ const badges: JSX.Element[] = PersonalBadges.map((badgeSource, index) => {
 export default function Contact(): JSX.Element {
   return (
     <section
-      className="min-h-screen p-2 lg:p-24 flex flex-col lg:flex-row gap-4 justify-around lg:justify-center items-center bg-contact text-white"
+      className="min-h-screen p-2 lg:p-24 flex flex-col lg:flex-row gap-4 justify-around lg:justify-center items-center text-white bg-yellow-600"
       data-scroll-section
     >
       <div
