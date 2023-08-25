@@ -20,7 +20,7 @@ export default function Resume(): JSX.Element {
         ability to troubleshoot and debug applications.
       </p>
       <div className="w-full md:w-1/2">
-        <details>
+        <details open>
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Front-end
           </summary>
@@ -28,7 +28,7 @@ export default function Resume(): JSX.Element {
         </details>
       </div>
       <div className="w-full md:w-1/2">
-        <details>
+        <details open>
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Back-end
           </summary>
@@ -36,7 +36,7 @@ export default function Resume(): JSX.Element {
         </details>
       </div>
       <div className="w-full md:w-1/2">
-        <details>
+        <details open>
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Blockchain
           </summary>
@@ -44,7 +44,7 @@ export default function Resume(): JSX.Element {
         </details>
       </div>
       <div className="w-full md:w-1/2">
-        <details>
+        <details open>
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Database
           </summary>
@@ -52,7 +52,7 @@ export default function Resume(): JSX.Element {
         </details>
       </div>
       <div className="w-full md:w-1/2">
-        <details>
+        <details open>
           <summary className="text-slate-200 text-xl font-bold mb-2 hover:cursor-pointer">
             Other Tools
           </summary>
