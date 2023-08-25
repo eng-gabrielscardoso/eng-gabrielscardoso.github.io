@@ -1,3 +1,4 @@
+import athenlabs_logo from "@/assets/images/athenlabs.jpg";
 import dacxichain_logo from "@/assets/images/dacxi-chain.jpeg";
 import ufpa_logo from "@/assets/images/ufpa.jpeg";
 import wealth99_logo from "@/assets/images/wealth99.jpeg";
@@ -17,6 +18,22 @@ interface IExperience {
 }
 
 const experience: IExperience[] = [
+  {
+    img: {
+      src: athenlabs_logo,
+      alt: "Athen Labs Logo",
+    },
+    position: "Partner Developer",
+    location: "Brazil",
+    job_type: "Remote",
+    institution: "Athen Labs",
+    period: "Jun 2023 - Currently",
+    description: [
+      "Worked with technologies such as NextJS, NuxtJS, Typescript, TailwindCSS, DaisyUI, Vite, Vitest, Supabase, Prisma, Vercel and Github Actions.",
+      "Was responsible for the development of graphical interfaces, implementation of new features, integration with APIs, unit and integration tests using Vitest and Jest",
+      "Was responsible for the development of REST API using the MVC pattern, the development of client features using NuxtJS Server and Supabase."
+    ]
+  },
   {
     img: {
       src: dacxichain_logo,
@@ -102,7 +119,7 @@ export default function Experience(): JSX.Element {
       <h2 className="text-4xl font-bold text-orange-600">
         &lt;/<span className="text-slate-200">Experience</span>&gt;
       </h2>
-      <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-4 overflow-y-scroll">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-4 gap-4">
         {experienceCards}
       </div>
     </section>
