@@ -1,6 +1,7 @@
 import moment from "moment";
 
 import BadgesSources from "@/assets/badges/PersonalBadges";
+import picrew_avatar from "@/assets/images/picrew.png";
 
 const getCurrentAge = moment().diff("2001-12-02", "years");
 
@@ -48,11 +49,11 @@ export default function Introduction(): JSX.Element {
       {/* Right */}
       <div className="w-full md:w-1/2 flex justify-center items-center rounded-full">
         <img
-          src="https://pt.gravatar.com/userimage/199484219/012c5298d952c34d6699a3d280e3a4f3.png?size=350"
+          src={picrew_avatar}
           alt="Gabriel's profile"
           title="Gabriel's profile"
-          width="350"
-          height="350"
+          width="320"
+          height="320"
           className="rounded-full"
         />
       </div>
