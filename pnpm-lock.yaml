@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^4.6.0
     version: 4.6.0(eslint@8.51.0)
   eslint-plugin-react-refresh:
-    specifier: ^0.4.2
-    version: 0.4.2(eslint@8.51.0)
+    specifier: ^0.4.4
+    version: 0.4.4(eslint@8.51.0)
   gh-pages:
     specifier: ^5.0.0
     version: 5.0.0
@@ -1497,8 +1497,8 @@ packages:
       eslint: 8.51.0
     dev: true
 
-  /eslint-plugin-react-refresh@0.4.2(eslint@8.51.0):
-    resolution: {integrity: sha512-AjT+7woNvaIiFoFqiD7nsd/M1MoW1h+8SAdfCpQ/1LSFkIH9DNAawBsTHj/1sWjijkVXRfF/rOiXFm+4xZrZ5Q==}
+  /eslint-plugin-react-refresh@0.4.4(eslint@8.51.0):
+    resolution: {integrity: sha512-eD83+65e8YPVg6603Om2iCIwcQJf/y7++MWm4tACtEswFLYMwxwVWAfwN+e19f5Ad/FOyyNg9Dfi5lXhH3Y3rA==}
     peerDependencies:
       eslint: '>=7'
     dependencies:
