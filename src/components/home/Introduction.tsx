@@ -1,9 +1,9 @@
-import moment from "moment";
+import * as dayjs from 'dayjs';
 
 import BadgesSources from "@/assets/badges/PersonalBadges";
 import picrew_avatar from "@/assets/images/picrew.png";
 
-const getCurrentAge = moment().diff("2001-12-02", "years");
+const getCurrentAge = dayjs().diff('2001-12-02', 'years');
 
 const badges = BadgesSources.map((badgeSource, index) => {
   return (
