@@ -4,7 +4,6 @@ export default function Footer(): JSX.Element {
   return (
     <footer
       className="min-h-screen flex justify-center items-center text-green-600 font-bold bg-slate-300"
-      data-scroll-section
     >
       <div data-scroll data-scroll-direction="vertical" data-scroll-speed="9">
         <div className="flex flex-col gap-2 justify-center items-center p-2">

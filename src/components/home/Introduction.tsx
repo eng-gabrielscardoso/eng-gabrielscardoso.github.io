@@ -23,9 +23,6 @@ export default function Introduction(): JSX.Element {
   return (
     <section
       className="min-h-screen p-2 md:p-24 flex flex-col md:flex-row gap-4 justify-around md:justify-center items-center text-white bg-slate-900"
-      data-scroll
-      data-scroll-section
-      data-scroll-speed="4"
     >
       {/* Left */}
       <div className="w-full md:w-1/2 flex flex-col gap-2 justify-between items-center">
