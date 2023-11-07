@@ -2,7 +2,6 @@ export default function Resume(): JSX.Element {
   return (
     <section
       className="min-h-screen p-4 flex flex-col gap-4 justify-center items-center text-white bg-indigo-400"
-      data-scroll-section
     >
       <h2 className="text-4xl font-bold text-emerald-500">
         &lt;/<span className="text-slate-200">Resume</span>&gt;

@@ -1,8 +1,9 @@
-import moment from "moment";
+import * as dayjs from 'dayjs';
 
 import BadgesSources from "@/assets/badges/PersonalBadges";
+import picrew_avatar from "@/assets/images/picrew.png";
 
-const getCurrentAge = moment().diff("2001-12-02", "years");
+const getCurrentAge = dayjs().diff('2001-12-02', 'years');
 
 const badges = BadgesSources.map((badgeSource, index) => {
   return (
@@ -22,9 +23,6 @@ export default function Introduction(): JSX.Element {
   return (
     <section
       className="min-h-screen p-2 md:p-24 flex flex-col md:flex-row gap-4 justify-around md:justify-center items-center text-white bg-slate-900"
-      data-scroll
-      data-scroll-section
-      data-scroll-speed="4"
     >
       {/* Left */}
       <div className="w-full md:w-1/2 flex flex-col gap-2 justify-between items-center">
@@ -48,11 +46,11 @@ export default function Introduction(): JSX.Element {
       {/* Right */}
       <div className="w-full md:w-1/2 flex justify-center items-center rounded-full">
         <img
-          src="https://pt.gravatar.com/userimage/199484219/012c5298d952c34d6699a3d280e3a4f3.png?size=350"
+          src={picrew_avatar}
           alt="Gabriel's profile"
           title="Gabriel's profile"
-          width="350"
-          height="350"
+          width="320"
+          height="320"
           className="rounded-full"
         />
       </div>
