@@ -41,8 +41,8 @@ devDependencies:
     specifier: ^4.0.2
     version: 4.0.2(vite@4.5.0)
   autoprefixer:
-    specifier: ^10.4.14
-    version: 10.4.14(postcss@8.4.31)
+    specifier: ^10.4.16
+    version: 10.4.16(postcss@8.4.31)
   eslint:
     specifier: ^8.51.0
     version: 8.51.0
@@ -1152,16 +1152,16 @@ packages:
     resolution: {integrity: sha512-iAB+JbDEGXhyIUavoDl9WP/Jj106Kz9DEn1DPgYw5ruDn0e3Wgi3sKFm55sASdGBNOQB8F59d9qQ7deqrHA8wQ==}
     dev: true
 
-  /autoprefixer@10.4.14(postcss@8.4.31):
-    resolution: {integrity: sha512-FQzyfOsTlwVzjHxKEqRIAdJx9niO6VCBCoEwax/VLSoQF29ggECcPuBqUMZ+u8jCZOPSy8b8/8KnuFbp0SaFZQ==}
+  /autoprefixer@10.4.16(postcss@8.4.31):
+    resolution: {integrity: sha512-7vd3UC6xKp0HLfua5IjZlcXvGAGy7cBAXTg2lyQ/8WpNhd6SiZ8Be+xm3FyBSYJx5GKcpRCzBh7RH4/0dnY+uQ==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.21.9
-      caniuse-lite: 1.0.30001513
-      fraction.js: 4.2.0
+      browserslist: 4.22.1
+      caniuse-lite: 1.0.30001563
+      fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
       postcss: 8.4.31
@@ -1210,6 +1210,17 @@ packages:
       update-browserslist-db: 1.0.11(browserslist@4.21.9)
     dev: true
 
+  /browserslist@4.22.1:
+    resolution: {integrity: sha512-FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==}
+    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
+    hasBin: true
+    dependencies:
+      caniuse-lite: 1.0.30001563
+      electron-to-chromium: 1.4.588
+      node-releases: 2.0.13
+      update-browserslist-db: 1.0.13(browserslist@4.22.1)
+    dev: true
+
   /callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
@@ -1227,6 +1238,10 @@ packages:
 
   /caniuse-lite@1.0.30001513:
     resolution: {integrity: sha512-pnjGJo7SOOjAGytZZ203Em95MRM8Cr6jhCXNF/FAXTpCTRTECnqQWLpiTRqrFtdYcth8hf4WECUpkezuYsMVww==}
+    dev: true
+
+  /caniuse-lite@1.0.30001563:
+    resolution: {integrity: sha512-na2WUmOxnwIZtwnFI2CZ/3er0wdNzU7hN+cPYz/z2ajHThnkWjNBOpEPP4n+4r2WPM847JaMotaJE3bnfzjyKw==}
     dev: true
 
   /chalk@2.4.2:
@@ -1387,6 +1402,10 @@ packages:
 
   /electron-to-chromium@1.4.454:
     resolution: {integrity: sha512-pmf1rbAStw8UEQ0sr2cdJtWl48ZMuPD9Sto8HVQOq9vx9j2WgDEN6lYoaqFvqEHYOmGA9oRGn7LqWI9ta0YugQ==}
+    dev: true
+
+  /electron-to-chromium@1.4.588:
+    resolution: {integrity: sha512-soytjxwbgcCu7nh5Pf4S2/4wa6UIu+A3p03U2yVr53qGxi1/VTR3ENI+p50v+UxqqZAfl48j3z55ud7VHIOr9w==}
     dev: true
 
   /email-addresses@5.0.0:
@@ -1669,8 +1688,8 @@ packages:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
-  /fraction.js@4.2.0:
-    resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}
+  /fraction.js@4.3.7:
+    resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: true
 
   /fs-extra@11.1.1:
@@ -2686,6 +2705,17 @@ packages:
       browserslist: '>= 4.21.0'
     dependencies:
       browserslist: 4.21.9
+      escalade: 3.1.1
+      picocolors: 1.0.0
+    dev: true
+
+  /update-browserslist-db@1.0.13(browserslist@4.22.1):
+    resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
+    hasBin: true
+    peerDependencies:
+      browserslist: '>= 4.21.0'
+    dependencies:
+      browserslist: 4.22.1
       escalade: 3.1.1
       picocolors: 1.0.0
     dev: true
