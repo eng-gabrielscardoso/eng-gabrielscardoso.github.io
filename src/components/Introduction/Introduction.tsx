@@ -32,7 +32,7 @@ export default function Introduction(): JSX.Element {
           &lt;/<span className="text-slate-200">Gabriel Santos Cardoso</span>
           &gt;
         </h1>
-        <p className="text-xl">Software solutions | Fullstack developer</p>
+        <p className="text-xl">Software solutions | Full Stack developer</p>
         <ul className="flex items-center justify-center flex-wrap gap-2">
           {badges}
         </ul>
