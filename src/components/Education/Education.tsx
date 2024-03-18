@@ -34,7 +34,7 @@ const education: IEducation[] = [
       alt: "UniFECAF Logo",
     },
     position: "Software Engineering",
-    degree: "Post-graduation Degree",
+    degree: "Postgraduate Specialisation",
     institution: "UniFECAF",
     period: "Nov 2021 - Apr 2022",
     description:

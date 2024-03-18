@@ -20,22 +20,6 @@ interface IExperience {
 const experience: IExperience[] = [
   {
     img: {
-      src: athenlabs_logo,
-      alt: "Athen Labs Logo",
-    },
-    position: "Partner Developer",
-    location: "Brazil",
-    job_type: "Remote",
-    institution: "Athen Labs",
-    period: "Jun 2023 - Currently",
-    description: [
-      "Worked with technologies such as NextJS, NuxtJS, Typescript, TailwindCSS, DaisyUI, Vite, Vitest, Supabase, Prisma, Vercel and Github Actions.",
-      "Was responsible for the development of graphical interfaces, implementation of new features, integration with APIs, unit and integration tests using Vitest and Jest",
-      "Was responsible for the development of REST API using the MVC pattern, the development of client features using NuxtJS Server and Supabase."
-    ]
-  },
-  {
-    img: {
       src: dacxichain_logo,
       alt: "Dacxi Chain Logo",
     },
@@ -68,10 +52,26 @@ const experience: IExperience[] = [
   },
   {
     img: {
+      src: athenlabs_logo,
+      alt: "Athen Labs Logo",
+    },
+    position: "Full Stack Developer",
+    location: "Brazil",
+    job_type: "Remote",
+    institution: "Athen Labs",
+    period: "Jun 2023 - Jul 2023",
+    description: [
+      "Worked with technologies such as NextJS, NuxtJS, Typescript, TailwindCSS, DaisyUI, Vite, Vitest, Supabase, Prisma, Vercel and Github Actions.",
+      "Was responsible for the development of graphical interfaces, implementation of new features, integration with APIs, unit and integration tests using Vitest and Jest",
+      "Was responsible for the development of REST API using the MVC pattern, the development of client features using NuxtJS Server and Supabase."
+    ]
+  },
+  {
+    img: {
       src: ufpa_logo,
       alt: "UFPA Logo",
     },
-    position: "Intern Software Developer",
+    position: "Software Developer",
     location: "Belém, PA, Brazil",
     job_type: "On-site",
     institution: "Universidade Federal do Pará",
