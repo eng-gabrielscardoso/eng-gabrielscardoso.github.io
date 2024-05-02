@@ -6,6 +6,6 @@
 
 <script lang="ts" setup>
 useHead({
-  titleTemplate: 'Gabriel S. Cardoso %s'
+  titleTemplate: 'Gabriel S. Cardoso %s',
 })
 </script>
