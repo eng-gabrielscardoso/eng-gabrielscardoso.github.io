@@ -9,5 +9,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@nuxt/image',
     '@nuxtjs/color-mode',
+    '@pinia-plugin-persistedstate/nuxt',
   ]
 })
