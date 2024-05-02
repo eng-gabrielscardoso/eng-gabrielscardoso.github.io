@@ -10,5 +10,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/color-mode',
     '@pinia-plugin-persistedstate/nuxt',
+    '@nuxt/eslint',
   ]
 })
