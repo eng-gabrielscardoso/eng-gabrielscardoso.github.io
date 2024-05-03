@@ -30,5 +30,5 @@ export default defineNuxtConfig({
   tailwindcss: {
     viewer: false,
     exposeConfig: false,
-  }
+  },
 })
