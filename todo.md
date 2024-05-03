@@ -7,6 +7,7 @@
 - [x] Install Pinia plugin persisted state
 - [x] Install ESLint + Prettier formatters
 - [ ] Install Nuxt UI
+- [ ] Install Husky
 - [ ] Install Google fonts module
 - [ ] Install test-utils module
 - [ ] Install Supabase
