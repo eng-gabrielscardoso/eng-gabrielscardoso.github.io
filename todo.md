@@ -1,8 +1,14 @@
-- [ ] install Nuxt UI
-- [ ] install Google fonts module
-- [ ] 
-- [ ] install test-utils module
-- [ ] install Supabase module
-- [ ] take a look at MDC module
-- [ ] take a look at Content module
-- [ ] take a look at Mailpit module
+- [x] Install Pinia
+- [x] Install Tailwind
+- [x] Install i18n support
+- [x] Install VueUse
+- [x] Install Nuxt Images
+- [x] Install Colour mode
+- [x] Install Pinia plugin persisted state
+- [x] Install ESLint + Prettier formatters
+- [ ] Install Nuxt UI
+- [ ] Install Google fonts module
+- [ ] Install test-utils module
+- [ ] Install Supabase
+- [ ] Install Content module
+- [ ] Install MDC module
